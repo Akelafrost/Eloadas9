@@ -9,7 +9,7 @@ class Jelszoobjektum():
     kell_irasjel = None
 
     def __int__(self):
-        self.jelszohossz = 8
+        self.jelszohossz = 10
         self.kell_irasjel = False
         self.kell_szamjegy = True
 
