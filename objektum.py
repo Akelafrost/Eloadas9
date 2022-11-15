@@ -9,7 +9,7 @@ class Jelszoobjektum():
     kell_irasjel = None
 
     def __int__(self):
-        self.jelszohossz = 10
+        self.jelszohossz = 5
         self.kell_irasjel = False
         self.kell_szamjegy = True
 
@@ -29,9 +29,7 @@ class Jelszoobjektum():
 
 if __name__ == '__main__':
     pwd = Jelszoobjektum()
-    pwd.jelszohossz = 15
     pwd.kell_irasjel = True
-    pwd.kell_szamjegy = False
     pwd.jelszogenerator()
 
     print(pwd.jelszo)

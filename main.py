@@ -62,8 +62,8 @@ irasjel_pipa.grid(row=2, column=1)
 jelszo_ertek=Text(ablak , height=1,width=15,state=DISABLED)
 jelszo_ertek.grid(row=0 , column=1)
 
-ok_gomb=Button(ablak , text='Ok' , command=ablak.destroy)
-ok_gomb.grid(row=3 , column=1)
+lezaro_gomb=Button(ablak , text='Lezárás' , command=ablak.destroy)
+lezaro_gomb.grid(row=3 , column=1)
 
 jelszogomb=Button(ablak , text='Generálás',command=jelszokiiras)
 jelszogomb.grid(row=3,column=0)
